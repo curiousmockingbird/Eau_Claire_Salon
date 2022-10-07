@@ -10,3 +10,16 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+.results {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.results a {
+  color:brown;
+}

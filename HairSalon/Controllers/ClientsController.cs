@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using HairSalon.Models;
 using System.Collections.Generic;
@@ -16,6 +18,11 @@ namespace HairSalon.Controllers
     {
       List<Client> model = _db.Clients.ToList();
       return View(model);
+    }
+    public ActionResult Create()
+    {
+      ViewBag.StylistId = new SelectList(_db.Stylists, "StylistId", "Name");
+      return View();
     }
   }
 }

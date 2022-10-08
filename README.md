@@ -23,20 +23,20 @@ _This is an MVC application that stores a list of stylists into a database, and 
 * _Run $ dotnet run_
 * _Open http://localhost:5000 on your browser_
 
-*_If you don't have it yet, install MySQL Web Installer. [Here](https://dev.mysql.com/downloads/installer/)'s download link._
-*_When installing, select:_ 
-*_Use legacy encryption_
-*_Set password_
-*_Enter the following in your command line:_
+* _If you don't have it yet, install MySQL Web Installer. [Here](https://dev.mysql.com/downloads/installer/)'s download link._
+* _When installing, select:_ 
+* _Use legacy encryption_
+* _Set password_
+* _Enter the following in your command line:_
 
 ### *'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile   
 
-*_Download the MySQL Workbench DMG file [here](https://dev.mysql.com/downloads/file/?id=484391). Open MySQL Workbench._
-*_Select >> Local Instance 3306_
-*_Import database (harold_mesa.sql) from the project's root folder_
-*_Create a file called appsettings.json in HairSalon folder._
-*_Copy the following in the file:_
- _{ "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=harold_mesa;uid=root;pwd=[YOUR_PASSWORD_HERE];" } } _
+* _Download the MySQL Workbench DMG file [here](https://dev.mysql.com/downloads/file/?id=484391). Open MySQL Workbench._
+* _Select >> Local Instance 3306_
+* _Import database (harold_mesa.sql) from the project's root folder_
+* _Create a file called appsettings.json in HairSalon folder._
+* _Copy the following in the file:_
+ _{ "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=harold_mesa;uid=root;pwd=[YOUR_PASSWORD_HERE];" } }_
 
 ## Known Bugs
 

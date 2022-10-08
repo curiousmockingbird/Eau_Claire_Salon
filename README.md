@@ -28,7 +28,7 @@ _This is an MVC application that stores a list of stylists into a database, and 
 *_Use legacy encryption_
 *_Set password_
 *_Enter the following in your command line:_
-### *'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile 
+### *'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile   
 *_Download the MySQL Workbench DMG file [here](https://dev.mysql.com/downloads/file/?id=484391). Open MySQL Workbench._
 *_Select >> Local Instance 3306_
 *_Import database (harold_mesa.sql) from the project's root folder_

@@ -2,7 +2,7 @@
 
 #### By _**Harold Mesa**_
 
-#### _MVC page for a hair Salon._
+#### _MVC page for a Hair Salon._
 
 ## Technologies Used
 

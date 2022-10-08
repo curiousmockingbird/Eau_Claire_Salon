@@ -5,10 +5,11 @@
 @model HairSalon.Models.Client;
 
 <div class="stylists-details">
-<h3>Name: @Html.DisplayFor(model => model.Name)<h3>
-  
+<h3>Client's name: @Html.DisplayFor(model => model.Name)<h3>
+<p>Assigned stylist: @Html.DisplayFor(model => model.Stylist.Name)</p>
+
 </div>
 
-<p>@Html.ActionLink("Delete client", "Delete", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Add client", "Create", "Clients")</p>
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<p>@Html.ActionLink("Back to clients list", "Index")</p>
+<p>@Html.ActionLink("Back to home", "Index", "Home")</p>

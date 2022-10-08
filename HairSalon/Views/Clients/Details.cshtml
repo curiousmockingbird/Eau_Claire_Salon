@@ -6,20 +6,7 @@
 
 <div class="stylists-details">
 <h3>Name: @Html.DisplayFor(model => model.Name)<h3>
-@* @if(@Model.Count == 0)
-{ 
-  <div class="if-empty">
-  <h3>Well, it seems like this stylist doesn't have any client assigned yet.</h3>
-  <p>@Html.ActionLink("Add client", "Create", "Clients")</p>
-  </div>
-} 
-else
-{
-  foreach(Client client in Model)
-  {
-    <h3>Name: @Html.DisplayFor(model => model.Name)</h3>
-  }
-}*@
+  
 </div>
 
 <p>@Html.ActionLink("Delete client", "Delete", new { id = Model.StylistId })</p>

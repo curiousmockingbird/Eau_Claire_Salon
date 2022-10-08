@@ -1,19 +1,18 @@
 @{
   Layout = "_Layout";
 }
-
 @model HairSalon.Models.Client
 
 <h4>Clair, add a new client:</h4>
 
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.Name, "Name")
-  @Html.TextBoxFor(model => model.Name)
+  @Html.LabelFor(model => model.Name, "Name")<br>
+  @Html.TextBoxFor(model => model.Name)<br>
 
-  @Html.LabelFor(model => model.Stylist, "Assign a stylist to this client.")
-  @Html.DropDownList("StylistId")
+  @Html.LabelFor(model => model.Stylist, "Assign a stylist to this client.")<br>
+  @Html.DropDownList("StylistId")<br>
 
   <input type="submit" value="Add new client"/>
 }
-<p>@Html.ActionLink("Show all clients", "Index")</p>
+<p>@Html.ActionLink("Show All Clients", "Index", "Clients", null, new {@class = "btn btn-outline-dark"})</p>

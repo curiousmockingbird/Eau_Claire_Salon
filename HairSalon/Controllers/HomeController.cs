@@ -7,6 +7,7 @@ namespace HairSalon.Controllers
     [HttpGet("/")]
     public ActionResult Index()
     {
+      ViewBag.PageTitle = "View all the items please";
       return View();
     }
   }

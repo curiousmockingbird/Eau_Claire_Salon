@@ -7,10 +7,19 @@
 
 <div class="stylists-details">
 <h3>Name: @Html.DisplayFor(model => model.Name)<h3>
-<h3>Specialty: @Html.DisplayFor(model => model.StylistSpecialty)<h3>
-
+<h5>Specialty: @Html.DisplayFor(model => model.StylistSpecialty)</h5><br><br>
 </div>
 
+<div>
+<h6>Clients assigned to this stylist:</h6>
+@foreach(Client client in Model.Clients)
+{
+  <p>@Html.ActionLink($"{client.Name}", "Details", "Clients", new {id = client.ClientId})</p>
+}  
+</div><br><br>
+
+<div>
 <p>@Html.ActionLink("Add client", "Create", "Clients")</p>
 <p>@Html.ActionLink("See clients", "Index", "Clients")</p>
 <p>@Html.ActionLink("Back to stylists list", "Index")</p>
+</div>

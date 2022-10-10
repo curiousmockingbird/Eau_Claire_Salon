@@ -6,6 +6,8 @@
 
 ## Technologies Used
 
+* _HTML_
+* _CSS_
 * _C#_
 * _.NET Core_
 * _MySQL_

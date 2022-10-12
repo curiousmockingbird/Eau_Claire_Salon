@@ -37,8 +37,7 @@ _This is an MVC application that stores a list of stylists into a database, and 
 * _Select >> Local Instance 3306_
 * _Import database (harold_mesa.sql) from the project's root folder_
 * _Create a file called appsettings.json in HairSalon folder._
-* _Copy the following in the file:_
- _{ "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=harold_mesa;uid=root;pwd=[YOUR_PASSWORD_HERE];" } }_
+* _Copy the following in the file: { "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=harold_mesa;uid=root;pwd=[YOUR_PASSWORD_HERE];" } }_
 
 ## Known Bugs
 
